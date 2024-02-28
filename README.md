@@ -2,7 +2,7 @@
 JustEat Assessment Day
 
 How to run JusteatFirst10.py:
-  - python JusteatFirst10.py <postcode>
+  - python JusteatFirst10.py [postcode]
   - e.g. python JusteatFirst10.py EC4M7RF
 
 Improvements that could be made would be:
