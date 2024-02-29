@@ -7,7 +7,7 @@ How to run JusteatFirst10.py:
   - If python is not installed, go to https://www.anaconda.com/download
   - click download
   - run the installer Anaconda3-2023.09-0-Windows-x86_64
-  - Go to the destination .e.g. cd C:\Users\[name]\anaconda3
+  - Open command prompt and go to the destination where anaconda3 was isntalled .e.g. cd C:\Users\[name]\anaconda3
   - run: python [fullPath]\JusteatFirst10.py EC4M7RF
 
 
