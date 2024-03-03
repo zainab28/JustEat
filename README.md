@@ -1,5 +1,5 @@
 # JustEat
-JustEat Assessment Day
+JustEat Assessment 
 
 How to run JusteatFirst10.py:
   - python JusteatFirst10.py [postcode]
