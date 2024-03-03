@@ -4,7 +4,7 @@ import sys
 
 def get_restaurant_data(postcode):
     url = "https://uk.api.just-eat.io/discovery/uk/restaurants/enriched/bypostcode/{}".format(postcode)
-    HEADERS = {'User-Agent': 'Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'}
+    HEADERS = {'User-Agent': 'Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'} # Facilitate trusted visit
     response = requests.get(url, headers=HEADERS)
 
     if response.status_code == 200: # Check if API is reached successfully
